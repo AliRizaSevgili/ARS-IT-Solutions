@@ -1,76 +1,56 @@
-# ARS-IT-Solutions
-Project Overview
-A modular, professional, and high-performance corporate website for ARS IT Solutions, built with Next.js, TypeScript, PostgreSQL, Docker, and modern DevOps practices. The project showcases advanced state management, real-time communication, and a component library, serving both as a company showcase and a developer portfolio.
+# ARS IT Solutions 🚀
 
-Table of Contents
-Features
-Tech Stack
-Project Structure
-Getting Started
-Development Workflow
-Modules
-DevOps & CI/CD
-Testing
-Contributing
-License
+> A modular, professional, and high-performance corporate website for **ARS IT Solutions**. Built with Next.js, TypeScript, PostgreSQL, Docker, and modern DevOps practices. This project serves as both a company showcase and a comprehensive developer portfolio, demonstrating advanced state management, real-time communication, and a component-driven design system.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
+</p>
 
-Features
-Modular architecture (frontend, backend, database, devops, testing)
-Next.js & React with TypeScript
-PostgreSQL database with Prisma ORM
-Advanced state management (Zustand or Redux Toolkit)
-Real-time communication (Socket.IO)
-Component library and design system (Storybook)
-Dockerized development and production environments
-Automated CI/CD pipeline (GitHub Actions)
-Comprehensive unit, integration, and e2e tests
+---
 
+## 📋 Table of Contents
 
+1.  [**Key Features**](#-key-features)
+2.  [**Tech Stack**](#-tech-stack)
+3.  [**Project Structure**](#-project-structure)
+4.  [**Getting Started**](#-getting-started)
+5.  [**DevOps & CI/CD**](#-devops--ci-cd)
+6.  [**Testing Strategy**](#-testing-strategy)
+7.  [**Contributing**](#-contributing)
+8.  [**License**](#-license)
 
-Tech Stack
-Frontend: Next.js, React, TypeScript, Tailwind CSS
-Backend: Next.js API routes or Node.js/Express (TypeScript)
-Database: PostgreSQL, Prisma ORM
-State Management: Zustand or Redux Toolkit
-Real-time: Socket.IO
-Component Library: Storybook
-DevOps: Docker, docker-compose
-CI/CD: GitHub Actions
-Testing: Jest, React Testing Library, Cypress/Playwright
+---
 
+## ✨ Key Features
 
-Modules
-Frontend: Modular React components, pages, and UI logic.
-Backend: API endpoints, authentication, business logic.
-Database: Prisma schema, migrations, and seed scripts.
-State Management: Global app state (auth, user, data).
-Real-time: WebSocket events and listeners.
-Component Library: Documented UI components in Storybook.
-DevOps: Dockerfiles, docker-compose, environment configs.
-CI/CD: Automated workflows for build, test, and deploy.
-Testing: Unit, integration, and e2e test suites.
-DevOps & CI/CD
-Docker: Containerized app for local and production environments.
-docker-compose: Multi-service orchestration (app, db, etc.).
-GitHub Actions: Automated build, test, and deployment pipelines.
+-   **Modular Architecture:** Fully independent layers for frontend, backend, database, and testing.
+-   **Full-Stack TypeScript:** End-to-end type safety from the database to the UI.
+-   **Database with ORM:** PostgreSQL managed with Prisma for robust data modeling and migrations.
+-   **Advanced State Management:** Scalable global state handled with Zustand or Redux Toolkit.
+-   **Real-Time Communication:** Interactive features powered by Socket.IO.
+-   **Component-Driven UI:** A reusable and documented component library built with Storybook.
+-   **Containerized Environments:** Dockerized setup for consistent development and production workflows.
+-   **Automated Pipelines:** CI/CD with GitHub Actions for automated testing, building, and deployment.
+-   **Comprehensive Testing:** Unit, integration, and end-to-end tests to ensure code quality and reliability.
 
+---
 
-Testing
-Unit Tests: Jest for logic and components.
-Integration Tests: React Testing Library.
-End-to-End Tests: Cypress or Playwright.
-Continuous Testing: All tests run on every PR via CI/CD.
+## 🛠️ Tech Stack
 
+| Category              | Technologies                                                                                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Frontend** | [**Next.js**](https://nextjs.org/), [**React**](https://reactjs.org/), [**TypeScript**](https://www.typescriptlang.org/), [**Tailwind CSS**](https://tailwindcss.com/) |
+| **Backend** | [**Next.js API Routes**](https://nextjs.org/docs/api-routes/introduction) or [**Node.js**](https://nodejs.org/) with [**Express**](https://expressjs.com/)             |
+| **Database** | [**PostgreSQL**](https://www.postgresql.org/), [**Prisma ORM**](https://www.prisma.io/)                                                                        |
+| **State Management** | [**Zustand**](https://zustand-demo.pmnd.rs/) or [**Redux Toolkit**](https://redux-toolkit.js.org/)                                                                |
+| **Real-Time** | [**Socket.IO**](https://socket.io/)                                                                                                                            |
+| **Component Library** | [**Storybook**](https://storybook.js.org/)                                                                                                                     |
+| **DevOps** | [**Docker**](https://www.docker.com/), [**docker-compose**](https://docs.docker.com/compose/)                                                                  |
+| **CI/CD** | [**GitHub Actions**](https://github.com/features/actions)                                                                                                    |
+| **Testing** | [**Jest**](https://jestjs.io/), [**React Testing Library**](https://testing-library.com/), [**Cypress**](https://www.cypress.io/) or [**Playwright**](https://playwright.dev/) |
 
-Contributing
-Fork the repository
-Create a feature branch (git checkout -b feature/<name>)
-Commit your changes
-Open a Pull Request
-Ensure all tests pass and code is reviewed.
-
-
-
-License
-This project is licensed under the MIT License.
+---
